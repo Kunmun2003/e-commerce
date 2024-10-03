@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            height: 110vh;
+            width: 100%;
+            display: flex;
+
+        }
+
+        .main1 {
+            height: 110vh;
+            width: 50%;
+            background-size: cover;
+            background-image: url(carts.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.7);
+
+
+        }
+
+        .mainlogin {
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .main2 {
+            height: 110vh;
+            width: 50%;
+            background-color: white;
+
+        }
+
+        .main11 {
+            width: 657px;
+        }
+
+        .box {
+            display: flex;
+            gap: 10px;
+            margin-left: 183px;
+            margin-bottom: 50px;
+        }
+        @media only screen and (max-width: 768px) {
+    /* Container adjustments */
+    .main {
+        padding: 0;
+    }
+
+    .main1, .main2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .login-info {
+        padding: 0 10px;
+    }
+
+    .info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info a {
+        margin: 0;
+    }
+
+    .info i {
+        margin: 10px 0;
+    }
+
+    .info h4 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* Cart item adjustments */
+    .cart1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 10px 0 ;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .cart11 {
+        margin-left: 7px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cart11 img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .cart12 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .cart12 h3 {
+        font-size: 1rem;
+    }
+
+    .cart12 p {
+        font-size: 0.9rem;
+    }
+
+    /* Quantity buttons adjustment */
+    .cart12 div {
+        justify-content: center;
+    }
+
+    .cart12 button {
+        margin: 5px;
+    }
+
+    /* Done button adjustments */
+    .login-info a button {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cart13{
+        margin-top: 231px;
+        margin-left: -1px;
+
+    }
+    .cart13 .img{
+        margin-left: 7px;
+
+    }
+    .bbb{
+        margin-top: 443px;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="mainlogin">
+            </div>
+        </div>
+        <div class="main2">
+            <div class="login-info" style="margin-top: 30px;">
+                <div class="info" style="display: flex;align-items: center;margin-bottom: 40px;">
+                    <a href="index.html" style="text-decoration: none;color: black;">
+                        <i class="fa-solid fa-xmark" style="margin-top: 0px;margin-left: 15px; margin-right: 245px;"></i></a>
+                    <h4>Cart</h4>
+                </div>
+                <div class="cart1" style="display: flex; height: 200px; width: 90%;background-color: white;">
+                    <div class="cart11" style="height: 200px; width: 200px;background-color:gray;margin-left:50px;">
+                        <img src="cart1.png" style="height: 200px; width: 200px;">
+                    </div>
+                    <div class="cart12" style="margin-left: 20px;"> 
+                        <h3>Luxe Armchair-Left Arm Chute</h3>
+                        <p style="padding: 20px 0;">Ultra-functional and elegently minimalist,<br>our Luxe Armchair Collection draws inspira...</p>
+                        <p style="padding-bottom: 30px;"><b>$899.00</b></p>
+                        <div style="display: flex;">
+                            <button style="height: 25px; width:25px;border-radius: 50%;background-color: black;"></button>
+                            <button style="height: 20px; width:20px;border-radius: 50%;background-color: black;margin: 3px 10px;"></button>
+                            <button style="height: 20px; width:20px;border-radius: 50%;background-color: black; margin-top: 3px;"></button>
+                            <button style="height: 40px; width:40px;border-radius: 15px;background-color:gray;margin-left: 150px;">1</button>
+                        </div>
+                       
+                        </div>
+                    </div>
+                    <div class="cart1"
+                        style="display: flex; height: 200px; width: 90%;background-color: white;margin-top: 20px;">
+                        <div class="cart13" style="height: 200px; width: 200px;background-color:gray;margin-left:50px;">
+                            <img src="top13.png" style="height: 200px; width: 200px;">
+
+                        </div>
+                        <div class="cart12" style="margin-left: 20px;"> 
+                            <h3>Round Terra Marble Center Table</h3>
+                            <p style="padding: 20px 0;">Let's take a look at how japanese and <br>Scandinavian styles combine to create bea...</p>
+                            <p style="padding-bottom: 30px;"><b>$369.00</b></p>
+                            <div style="display: flex;">
+                                <button style="height: 25px; width:25px;border-radius: 50%;background-color: black;"></button>
+                                <button style="height: 20px; width:20px;border-radius: 50%;background-color: black;margin: 3px 10px;"></button>
+                                <button style="height: 20px; width:20px;border-radius: 50%;background-color: black; margin-top: 3px;"></button>
+                                <button style="height: 40px; width:40px;border-radius: 15px;background-color:gray;margin-left: 150px;">1</button>
+                            </div>
+                           
+                            </div>
+                    </div>
+
+
+                    <a href="index.html"><button class="bbb" style="width:100%;height: 40px;background-color: blue;color: white;border: none;margin-top: 105px;">Done</button></a>
+
+
+
+
+
+
+                </div>
+            </div>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.login{
+    background-image: url('login.png') ;
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.mainlogin{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+.login-info{
+    width: 500px;
+    height:98%;
+    background-color: white;
+    float: right;
+    align-items: center;
+}
+h4{
+    padding: 20px 220px 30px 190px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+
+}
+h3{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+.text1{
+    height: 40px;
+    width: 270px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid violet;
+}
+.text2{
+    height: 40px;
+    width: 270px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid violet;
+}
+p{
+    margin-left: 273px;
+    color: rgb(58, 43, 92);
+    margin-bottom: 10px;
+
+}
+
+.btn1{
+height: 35px;
+width: 270px;
+margin-left: 110px;
+border-radius: 20px;
+background-color: rgb(70, 70, 184);
+border: none;
+color: white;
+
+}
+.line{
+    position: relative;
+    height: 2px;
+    width: 53%;
+    margin: 30px 0;
+    background-color: #d4d4d4;
+    margin-left: 115px;
+
+}
+.line::before{
+    content: 'OR';
+    position: absolute;
+    top: 50%;
+    right: 44%;
+    transform: translate(-50% ,-50%);
+    background-color: white;
+    color: #232836;
+    
+}
+.btn2{
+    height: 35px;
+    width: 270px;
+    margin-left: 110px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+    }
+    .btn3{
+        height: 35px;
+        width: 270px;
+        margin-left: 110px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+
+        
+        }
+        
+        
+        
+        .last{
+            margin-left: 130px;
+        }
+        span{
+            color: rgb(70, 70, 184);
+        }
+        .info{
+            display: flex;
+            width: 100%;
+        }
+        
